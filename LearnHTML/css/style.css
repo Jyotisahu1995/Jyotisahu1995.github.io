@@ -1,16 +1,15 @@
 *{
-    box-sizing: content-solid 
-    width: 300px
-    border: 400px solid grey;
+    margin:0;
+    padding:0;
  }
  .navbar{
-     border:2px solid black;
+     border: none;
      background-color: black;
      color: #61122F;
  }
  body{ 
      background-color: #61122F;
-     color:white;
+     color:black;
  }
  .glyphicon{
          font-size: 30px;
@@ -20,42 +19,25 @@
        width:90%;
        background-color:grey;
  }
- #container{
-    
-    position:relative;
+.container{
      background-color:grey;
  }
  .text-center{
      font-size:30px;
  }
- p{
-     background-color:#bfbfbf;
-     border-style:solid;
-     border color:grey;
-     height:150px;
-     margin-right:10px
-     padding:40px 10px 5px 10px;
-     overflow:hidden;
-     display:inline-block;
+ h1{
+     margin:20px;
  }
  h2{
-     position:absolute;
-     font-weight:bold;
      text-align: center;
  }
  h3{
-
      text-align:center;
-     position:absolute;
-     font-weight:bold;
  }
  h4{
      text-align:center;
-     position:absolute;
-     font-weight:bold;
+     
  }
- 
-
  #myNavbar ul li a {
      color: #61122F;
  }
